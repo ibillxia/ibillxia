@@ -4,8 +4,6 @@
 
 I work at the intersection of business and algorithms: turning ambiguous business questions into testable data questions, then shipping the models, experiments and systems that answer them.
 
-11+ years at Tencent / Tencent Music (TME), 3+ years leading a 5–8 person data science team. Zhejiang University, M.S. in Computer Science.
-
 ---
 ## 🧰 Toolbox
 
@@ -18,8 +16,6 @@ I work at the intersection of business and algorithms: turning ambiguous busines
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-202B38?style=flat-square&logo=elasticsearch&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-202B38?style=flat-square&logo=go&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-202B38?style=flat-square&logo=cplusplus&logoColor=white)
-
-`pandas` · `scikit-learn` · `statsmodels` · `PyTorch` / `TensorFlow` · `XGBoost` · `DIN / DCN / DSSM / EPNet` · `CLIP / Qwen3-Embedding` · `Faiss` · `Spark / Flink / Kafka` · `HiveSQL` · `Elasticsearch / HBase / MySQL` · `Go` · `vLLM`
 
 ---
 ## 🔭 What I work on
@@ -56,9 +52,11 @@ Open to conversations about data science leadership, experimentation infrastruct
 <details>
 <summary>中文简介</summary>
 
-高级数据科学家 / 数据科学负责人，11+ 年腾讯 / 腾讯音乐经验，浙江大学计算机硕士，3+ 年 5～8 人团队管理经验。
+高级数据科学家 / 数据科学负责人。
 
-长期做三件事：从海量用户行为里挖业务洞察，用严谨的实验和因果推断衡量效果，再把结论落成模型和系统。主导 B 端投放平台从 0 到亿级 ARR；用双边市场 A/B 与 Uplift 建模做增量预算分配，库存利用率与任务完成率 +10%；迭代召回与精排模型，播放转化与时长 +5%；把音乐助手升级为 ReAct + Tool Calling 的自主 Agent，准确率 +20%。
+长期做三件事：从海量用户行为里挖业务洞察，用严谨的实验和因果推断衡量效果，再把结论落成模型和系统。
+
+主导 B 端投放平台从 0 到亿级 ARR；用双边市场 A/B 与 Uplift 建模做增量预算分配，库存利用率与任务完成率 +10%；迭代召回与精排模型，播放转化与时长 +5%；把音乐助手升级为 ReAct + Tool Calling 的自主 Agent，准确率 +20%。
 
 技术栈：Python / SQL（HiveSQL）、scikit-learn、statsmodels、PyTorch、Spark / Flink / Kafka、Faiss、Go。
 
