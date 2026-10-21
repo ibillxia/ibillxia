@@ -97,7 +97,7 @@ I work at the intersection of business and algorithms: turning ambiguous busines
 
 Open to conversations about data science leadership, experimentation infrastructure, recommendation / advertising algorithms, and agent systems.
 
-📫 [ibillxia@gmail.com](mailto:ibillxia@gmail.com) · 🌐 [ibillxia.github.io](https://ibillxia.github.io) · 📍 Shenzhen, China
+📫 [ibillxia AT gmail DOT com](mailto:ibillxia@gmail.com) · 🌐 [ibillxia.github.io](https://ibillxia.github.io) · 📍 Shenzhen, China
 
 <details>
 <summary>中文简介</summary>
