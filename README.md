@@ -7,7 +7,21 @@ I work at the intersection of business and algorithms: turning ambiguous busines
 11+ years at Tencent / Tencent Music (TME), 3+ years leading a 5–8 person data science team. Zhejiang University, M.S. in Computer Science.
 
 ---
+## 🧰 Toolbox
 
+![Python](https://img.shields.io/badge/Python-202B38?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL%20%2F%20HiveSQL-202B38?style=flat-square&logo=apachehive&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-202B38?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-202B38?style=flat-square&logo=tensorflow&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark%20%2F%20Flink-202B38?style=flat-square&logo=apachespark&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-202B38?style=flat-square&logo=apachekafka&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-202B38?style=flat-square&logo=elasticsearch&logoColor=white)
+![Go](https://img.shields.io/badge/Go-202B38?style=flat-square&logo=go&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-202B38?style=flat-square&logo=cplusplus&logoColor=white)
+
+`pandas` · `scikit-learn` · `statsmodels` · `PyTorch` / `TensorFlow` · `XGBoost` · `DIN / DCN / DSSM / EPNet` · `CLIP / Qwen3-Embedding` · `Faiss` · `Spark / Flink / Kafka` · `HiveSQL` · `Elasticsearch / HBase / MySQL` · `Go` · `vLLM`
+
+---
 ## 🔭 What I work on
 
 | Area | In practice |
@@ -27,21 +41,19 @@ I work at the intersection of business and algorithms: turning ambiguous busines
 - **+20%** answer accuracy turning a workflow-style music assistant into an autonomous tool-calling agent.
 - Discovered and boosted breakout hits (e.g. 《一路生花》) with a hit-potential scoring model built on lyrics / audio signals and leading-indicator user behavior.
 
-## 🧰 Toolbox
+## 🌱 Open source & community
 
-![Python](https://img.shields.io/badge/Python-202B38?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL%20%2F%20HiveSQL-202B38?style=flat-square&logo=apachehive&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-202B38?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-202B38?style=flat-square&logo=tensorflow&logoColor=white)
-![Spark](https://img.shields.io/badge/Spark%20%2F%20Flink-202B38?style=flat-square&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-202B38?style=flat-square&logo=apachekafka&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-202B38?style=flat-square&logo=elasticsearch&logoColor=white)
-![Go](https://img.shields.io/badge/Go-202B38?style=flat-square&logo=go&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-202B38?style=flat-square&logo=cplusplus&logoColor=white)
+- [huggingface/transformers #39077](https://github.com/huggingface/transformers/issues/39077) — reported an `ImportError: cannot import name 'TorchTensorParallelPlugin'` regression; maintainers confirmed it was an unconditional import in `trainer.py` rather than a version problem, and shipped a patch.
+- [langgenius/dify #33020](https://github.com/langgenius/dify/issues/33020) — proposed letting end users pick the model at runtime in LLM workflow nodes.
+- [web-scrobbler/web-scrobbler #1188](https://github.com/web-scrobbler/web-scrobbler/pull/1188) — added QQ Music and Kuwo Music scrobbler support.
 
-`pandas` · `scikit-learn` · `statsmodels` · `PyTorch` / `TensorFlow` · `XGBoost` · `DIN / DCN / DSSM / EPNet` · `CLIP / Qwen3-Embedding` · `Faiss` · `Spark / Flink / Kafka` · `HiveSQL` · `Elasticsearch / HBase / MySQL` · `Go` · `vLLM`
+## 🎤 Talks & writing
 
----
+- 2023.09 · 人人都是产品经理大会 · 《AI + 内容精细化运营下的产品增长》 — [link](https://www.woshipm.com/event/5895272.html)
+- 2022.04 · msup A2M Summit · 《数据科学在音乐推荐中的实践和应用》 — [link](https://a2m.msup.com.cn/course/15492)
+- 2021.10 · DataFunTalk · 《内容评估理解和流量精细化运营》 — [link](https://mp.weixin.qq.com/s/SaJcVARQzUSpPj2uugXypA)
+- Blog: [ibillxia.github.io](https://ibillxia.github.io) — notes on speech processing, recommendation, experimentation and agents.
+
 
 ## 📦 Selected repositories
 
@@ -71,18 +83,6 @@ I work at the intersection of business and algorithms: turning ambiguous busines
 | [xpop3](https://github.com/ibillxia/xpop3) ★4 | A tiny but complete POP3 server. |
 | [HttpServer](https://github.com/ibillxia/HttpServer) ★1 | A simple HTTP server written from scratch. |
 
-## 🌱 Open source & community
-
-- [huggingface/transformers #39077](https://github.com/huggingface/transformers/issues/39077) — reported an `ImportError: cannot import name 'TorchTensorParallelPlugin'` regression; maintainers confirmed it was an unconditional import in `trainer.py` rather than a version problem, and shipped a patch.
-- [langgenius/dify #33020](https://github.com/langgenius/dify/issues/33020) — proposed letting end users pick the model at runtime in LLM workflow nodes.
-- [web-scrobbler/web-scrobbler #1188](https://github.com/web-scrobbler/web-scrobbler/pull/1188) — added QQ Music and Kuwo Music scrobbler support.
-
-## 🎤 Talks & writing
-
-- 2023.09 · 人人都是产品经理大会 · 《AI + 内容精细化运营下的产品增长》 — [link](https://www.woshipm.com/event/5895272.html)
-- 2022.04 · msup A2M Summit · 《数据科学在音乐推荐中的实践和应用》 — [link](https://a2m.msup.com.cn/course/15492)
-- 2021.10 · DataFunTalk · 《内容评估理解和流量精细化运营》 — [link](https://mp.weixin.qq.com/s/SaJcVARQzUSpPj2uugXypA)
-- Blog: [ibillxia.github.io](https://ibillxia.github.io) — notes on speech processing, recommendation, experimentation and agents.
 
 ## 🧪 Side projects
 
