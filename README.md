@@ -24,13 +24,18 @@ I work at the intersection of business and algorithms: turning ambiguous busines
 ---
 ## 🔭 What I work on
 
-| Area | In practice |
-| :--- | :--- |
-| **Business insight & growth** | User profiling and segmentation, retention / conversion analysis, content and user value scoring, indicator systems, opportunity discovery from billions of behavioral events |
-| **Experimentation & causal inference** | End-to-end experiment design (assignment → metrics → guardrails → diagnosis → attribution), two-sided-market A/B tests, propensity score matching / IPW, uplift modeling, ablation-based validation |
-| **Ads & campaign optimization** | Built an advertiser-facing (label-side) promotion platform from 0 to 100M+ RMB ARR; ranking evolution XGBoost → DIN / DCN / STAR, budget allocation by incremental lift |
-| **Recommendation & multimodal** | Retrieval / ranking / re-ranking, EPNet-family fine ranking, CLIP + Qwen3-Embedding representations, Faiss retrieval, cold start, diversity constraints |
-| **GenAI & agents** | ReAct + tool-calling agents, tool schema validation and fallback, answer-evaluation pipelines, end-to-end observability (token / latency / cost / hit rate), proactive outreach systems |
+Each area comes with the code, issues and talks behind it.
+
+| Area | In practice | Code, issues & talks |
+| :--- | :--- | :--- |
+| **Business insight & growth** | User profiling and segmentation, retention / conversion analysis, content and user value scoring, indicator systems, opportunity discovery from billions of behavioral events | 《AI + 内容精细化运营下的产品增长》 · [人人都是产品经理大会 2023](https://www.woshipm.com/event/5895272.html) |
+| **Experimentation & causal inference** | End-to-end experiment design (assignment → metrics → guardrails → diagnosis → attribution), two-sided-market A/B tests, propensity score matching / IPW, uplift modeling, ablation-based validation | 《数据科学在音乐推荐中的实践和应用》 · [msup A2M 2022](https://a2m.msup.com.cn/course/15492)<br>《内容评估理解和流量精细化运营》 · [DataFunTalk 2021](https://mp.weixin.qq.com/s/SaJcVARQzUSpPj2uugXypA) |
+| **Ads & campaign optimization** | Built an advertiser-facing (label-side) promotion platform from 0 to 100M+ RMB ARR; ranking evolution XGBoost → DIN / DCN / STAR; budget allocation by incremental lift | Internal project — no public code<br>《内容评估理解和流量精细化运营》 · [DataFunTalk 2021](https://mp.weixin.qq.com/s/SaJcVARQzUSpPj2uugXypA) |
+| **Recommendation & multimodal** | Retrieval / ranking / re-ranking, EPNet-family fine ranking, CLIP + Qwen3-Embedding representations, Faiss retrieval, cold start, diversity constraints | [VoicePrintReco](https://github.com/ibillxia/VoicePrintReco) ★80 — speaker recognition on SPHERE / SPro / ALIZE<br>[MFCCandDTW](https://github.com/ibillxia/MFCCandDTW) ★41 — keyword spotting, 5.1% error on 39 utterances<br>[htk_3_4_1](https://github.com/ibillxia/htk_3_4_1) ★47 · [pyssp](https://github.com/ibillxia/pyssp) ★3 — speech features, VAD, pitch tracking |
+| **GenAI & agents** | ReAct + tool-calling agents, tool schema validation and fallback, answer-evaluation pipelines, end-to-end observability (token / latency / cost / hit rate), proactive outreach systems | [OpenAI-Data-Analytics](https://github.com/ibillxia/OpenAI-Data-Analytics) ★30 — data-agent workflows<br>[AutoKaggle](https://github.com/ibillxia/AutoKaggle) — agent-driven ML pipelines<br>[transformers #39077](https://github.com/huggingface/transformers/issues/39077) — `TorchTensorParallelPlugin` import regression<br>[dify #33020](https://github.com/langgenius/dify/issues/33020) — runtime model selection in LLM nodes<br>[web-scrobbler #1188](https://github.com/web-scrobbler/web-scrobbler/pull/1188) — QQ Music / Kuwo Music support |
+| **Systems & tooling** | Protocol servers, LaTeX tooling — the C++ years that shaped how I read systems today | [xsmtp](https://github.com/ibillxia/xsmtp) ★45 · [xpop3](https://github.com/ibillxia/xpop3) ★4 · [HttpServer](https://github.com/ibillxia/HttpServer) ★1<br>[zjuthesis](https://github.com/ibillxia/zjuthesis) ★11 — LaTeX thesis template |
+
+**Side projects** — **Sovits-SVC AI covers** (vocal separation → training → inference on a local RTX 4060) · on-device Gemma music app with camera + mic + GPS input (Kotlin) · configurable source → LLM → publish digest app (TypeScript) · [Spotify news digest Skill](https://clawhub.ai/ibillxia/spotify-news-digest), 9+ sources, 560+ downloads.
 
 ## 📈 Selected impact
 
@@ -40,56 +45,6 @@ I work at the intersection of business and algorithms: turning ambiguous busines
 - **+3%** play penetration from multimodal (CLIP + Qwen3-Embedding + Faiss) retrieval.
 - **+20%** answer accuracy turning a workflow-style music assistant into an autonomous tool-calling agent.
 - Discovered and boosted breakout hits (e.g. 《一路生花》) with a hit-potential scoring model built on lyrics / audio signals and leading-indicator user behavior.
-
-## 🌱 Open source & community
-
-- [huggingface/transformers #39077](https://github.com/huggingface/transformers/issues/39077) — reported an `ImportError: cannot import name 'TorchTensorParallelPlugin'` regression; maintainers confirmed it was an unconditional import in `trainer.py` rather than a version problem, and shipped a patch.
-- [langgenius/dify #33020](https://github.com/langgenius/dify/issues/33020) — proposed letting end users pick the model at runtime in LLM workflow nodes.
-- [web-scrobbler/web-scrobbler #1188](https://github.com/web-scrobbler/web-scrobbler/pull/1188) — added QQ Music and Kuwo Music scrobbler support.
-
-## 🎤 Talks & writing
-
-- 2023.09 · 人人都是产品经理大会 · 《AI + 内容精细化运营下的产品增长》 — [link](https://www.woshipm.com/event/5895272.html)
-- 2022.04 · msup A2M Summit · 《数据科学在音乐推荐中的实践和应用》 — [link](https://a2m.msup.com.cn/course/15492)
-- 2021.10 · DataFunTalk · 《内容评估理解和流量精细化运营》 — [link](https://mp.weixin.qq.com/s/SaJcVARQzUSpPj2uugXypA)
-- Blog: [ibillxia.github.io](https://ibillxia.github.io) — notes on speech processing, recommendation, experimentation and agents.
-
-
-## 📦 Selected repositories
-
-**Data & AI**
-
-| Repo | What it is |
-| :--- | :--- |
-| [OpenAI-Data-Analytics](https://github.com/ibillxia/OpenAI-Data-Analytics) ★30 | Curated notes and setup for a data-agent workflow — turning business questions into reviewed tables, charts, dashboards and recommendations. |
-| [AutoKaggle](https://github.com/ibillxia/AutoKaggle) | Fork of a multi-agent Kaggle automation project; experiments around agent-driven ML pipelines. |
-| [pyssp](https://github.com/ibillxia/pyssp) ★3 | Speech signal processing in Python — volume, zero-crossing rate, voice activity detection, pitch tracking. |
-
-**Speech & audio (earlier work, still the most-starred)**
-
-| Repo | What it is |
-| :--- | :--- |
-| [VoicePrintReco](https://github.com/ibillxia/VoicePrintReco) ★80 | Speaker / voiceprint recognition pipeline built on SPHERE, SPro, ALIZE and LIA_RAL — the project that got me into large-scale signal + ML work. |
-| [htk_3_4_1](https://github.com/ibillxia/htk_3_4_1) ★47 | Cambridge HTK 3.4.1 speech recognition toolchain, packaged for research use. |
-| [MFCCandDTW](https://github.com/ibillxia/MFCCandDTW) ★41 | Keyword recognition from MFCC features + dynamic time warping; 5.1% error rate on a 39-utterance test set. |
-
-**Systems & tooling (C++)**
-
-| Repo | What it is |
-| :--- | :--- |
-| [xsmtp](https://github.com/ibillxia/xsmtp) ★45 | A tiny but complete SMTP server — threads, base64, auth. |
-| [Demo](https://github.com/ibillxia/Demo) ★12 | Grab bag of demo code across protocols, algorithms and signal processing. |
-| [zjuthesis](https://github.com/ibillxia/zjuthesis) ★11 | LaTeX thesis template for Zhejiang University. |
-| [xpop3](https://github.com/ibillxia/xpop3) ★4 | A tiny but complete POP3 server. |
-| [HttpServer](https://github.com/ibillxia/HttpServer) ★1 | A simple HTTP server written from scratch. |
-
-
-## 🧪 Side projects
-
-- **Sovits-SVC AI covers** — end-to-end voice conversion on a local RTX 4060: vocal / instrumental separation, slicing, training, inference.
-- **On-device music app (Kotlin)** — Gemma parsing multimodal input (camera + mic + GPS) for conversational recommendation and an AI DJ radio.
-- **Cross-platform AI digest app (TypeScript)** — configurable data source → LLM → publishing pipeline.
-- **Spotify news digest Skill** — 9+ sources aggregated, 560+ downloads.
 
 ---
 
