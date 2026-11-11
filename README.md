@@ -4,7 +4,6 @@
 
 I work at the intersection of business and algorithms: turning ambiguous business questions into testable data questions, then shipping the models, experiments and systems that answer them.
 
----
 ## 🧰 Toolbox
 
 ![Python](https://img.shields.io/badge/Python-202B38?style=flat-square&logo=python&logoColor=white)
@@ -17,7 +16,9 @@ I work at the intersection of business and algorithms: turning ambiguous busines
 ![Go](https://img.shields.io/badge/Go-202B38?style=flat-square&logo=go&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-202B38?style=flat-square&logo=cplusplus&logoColor=white)
 
----
+<details>
+<summary>English Profile</summary>
+
 ## 🔭 What I work on
 
 Each area comes with the code, issues and talks behind it.
@@ -41,13 +42,12 @@ Each area comes with the code, issues and talks behind it.
 - **+20%** answer accuracy turning a workflow-style music assistant into an autonomous tool-calling agent.
 - Discovered and boosted breakout hits (e.g. 《一路生花》) with a hit-potential scoring model built on lyrics / audio signals and leading-indicator user behavior.
 
----
-
 ## 💬 Let's talk
 
 Open to conversations about data science leadership, experimentation infrastructure, recommendation / advertising algorithms, and agent systems.
 
 📫 [ibillxia AT gmail DOT com](mailto:ibillxia@gmail.com) · 🌐 [ibillxia.github.io](https://ibillxia.github.io) · 📍 Shenzhen, China
+</details>
 
 <details>
 <summary>中文简介</summary>
@@ -56,8 +56,9 @@ Open to conversations about data science leadership, experimentation infrastruct
 
 长期做三件事：从海量用户行为里挖业务洞察，用严谨的实验和因果推断衡量效果，再把结论落成模型和系统。
 
-主导 B 端投放平台从 0 到亿级 ARR；用双边市场 A/B 与 Uplift 建模做增量预算分配，库存利用率与任务完成率 +10%；迭代召回与精排模型，播放转化与时长 +5%；把音乐助手升级为 ReAct + Tool Calling 的自主 Agent，准确率 +20%。
-
-技术栈：Python / SQL（HiveSQL）、scikit-learn、statsmodels、PyTorch、Spark / Flink / Kafka、Faiss、Go。
+- 主导 B 端投放平台从 0 到亿级 ARR；
+- 用双边市场 A/B 与 Uplift 建模做增量预算分配与算法优化，库存利用率与任务完成率 +10%；
+- 迭代召回与精排模型，基于CLIP和Qwen3-embedding等优化内容表征，播放转化与时长 +5%；
+- 把音乐助手升级为 ReAct + Tool Calling 的自主 Agent，准确率 +20%。
 
 </details>
